@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 5816,
+    "id" : "https://ksefil.github.io/IIIF_Age_of_Discovery/images/Ortelius/canvas/",
+    "label" : {
+      "none" : [ "Ortelius" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://ksefil.github.io/IIIF_Age_of_Discovery/images/Ortelius/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://ksefil.github.io/IIIF_Age_of_Discovery/images/Ortelius/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 182,
+              "height" : 124
+            }, {
+              "width" : 364,
+              "height" : 248
+            }, {
+              "width" : 727,
+              "height" : 496
+            }, {
+              "width" : 1454,
+              "height" : 991
+            }, {
+              "width" : 2908,
+              "height" : 1981
+            }, {
+              "width" : 5816,
+              "height" : 3961
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 5816,
+            "@id" : "https://ksefil.github.io/IIIF_Age_of_Discovery/images/Ortelius",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 3961
+          } ],
+          "format" : "image/jpeg",
+          "width" : 5816,
+          "id" : "https://ksefil.github.io/IIIF_Age_of_Discovery/images/Ortelius/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 3961
+        },
+        "target" : "https://ksefil.github.io/IIIF_Age_of_Discovery/images/Ortelius/canvas/"
+      } ]
+    } ],
+    "height" : 3961
+  }, {
     "width" : 4289,
     "id" : "https://ksefil.github.io/IIIF_Age_of_Discovery/images/Ribeiro/canvas/",
     "label" : {
