@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 2950,
+    "id" : "https://ksefil.github.io/IIIF_Age_of_Discovery/images/Nicolaes_Visscher/canvas/",
+    "label" : {
+      "none" : [ "Nicolaes_Visscher" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://ksefil.github.io/IIIF_Age_of_Discovery/images/Nicolaes_Visscher/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://ksefil.github.io/IIIF_Age_of_Discovery/images/Nicolaes_Visscher/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 93,
+              "height" : 78
+            }, {
+              "width" : 185,
+              "height" : 155
+            }, {
+              "width" : 369,
+              "height" : 310
+            }, {
+              "width" : 738,
+              "height" : 620
+            }, {
+              "width" : 1475,
+              "height" : 1239
+            }, {
+              "width" : 2950,
+              "height" : 2478
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 2950,
+            "@id" : "https://ksefil.github.io/IIIF_Age_of_Discovery/images/Nicolaes_Visscher",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 2478
+          } ],
+          "format" : "image/jpeg",
+          "width" : 2950,
+          "id" : "https://ksefil.github.io/IIIF_Age_of_Discovery/images/Nicolaes_Visscher/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 2478
+        },
+        "target" : "https://ksefil.github.io/IIIF_Age_of_Discovery/images/Nicolaes_Visscher/canvas/"
+      } ]
+    } ],
+    "height" : 2478
+  }, {
     "width" : 5816,
     "id" : "https://ksefil.github.io/IIIF_Age_of_Discovery/images/Ortelius/canvas/",
     "label" : {
