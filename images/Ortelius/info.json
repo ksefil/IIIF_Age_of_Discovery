@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 182,
+    "height" : 124
+  }, {
+    "width" : 364,
+    "height" : 248
+  }, {
+    "width" : 727,
+    "height" : 496
+  }, {
+    "width" : 1454,
+    "height" : 991
+  }, {
+    "width" : 2908,
+    "height" : 1981
+  }, {
+    "width" : 5816,
+    "height" : 3961
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 5816,
+  "@id" : "https://ksefil.github.io/IIIF_Age_of_Discovery/images/Ortelius",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 3961
+}
