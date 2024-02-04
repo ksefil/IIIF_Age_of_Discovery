@@ -1,0 +1,66 @@
+{
+  "id" : "https://ksefil.github.io/IIIF_Age_of_Discovery/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in ksefil/IIIF_Age_of_Discovery project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 8073,
+    "id" : "https://ksefil.github.io/IIIF_Age_of_Discovery/images/Claudius_Ptolemy/canvas/",
+    "label" : {
+      "none" : [ "Claudius_Ptolemy" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://ksefil.github.io/IIIF_Age_of_Discovery/images/Claudius_Ptolemy/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://ksefil.github.io/IIIF_Age_of_Discovery/images/Claudius_Ptolemy/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 253,
+              "height" : 182
+            }, {
+              "width" : 505,
+              "height" : 364
+            }, {
+              "width" : 1010,
+              "height" : 727
+            }, {
+              "width" : 2019,
+              "height" : 1454
+            }, {
+              "width" : 4037,
+              "height" : 2907
+            }, {
+              "width" : 8073,
+              "height" : 5813
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 8073,
+            "@id" : "https://ksefil.github.io/IIIF_Age_of_Discovery/images/Claudius_Ptolemy",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 5813
+          } ],
+          "format" : "image/jpeg",
+          "width" : 8073,
+          "id" : "https://ksefil.github.io/IIIF_Age_of_Discovery/images/Claudius_Ptolemy/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 5813
+        },
+        "target" : "https://ksefil.github.io/IIIF_Age_of_Discovery/images/Claudius_Ptolemy/canvas/"
+      } ]
+    } ],
+    "height" : 5813
+  } ]
+}
