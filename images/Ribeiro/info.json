@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 135,
+    "height" : 57
+  }, {
+    "width" : 269,
+    "height" : 114
+  }, {
+    "width" : 537,
+    "height" : 227
+  }, {
+    "width" : 1073,
+    "height" : 454
+  }, {
+    "width" : 2145,
+    "height" : 907
+  }, {
+    "width" : 4289,
+    "height" : 1813
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 4289,
+  "@id" : "https://ksefil.github.io/IIIF_Age_of_Discovery/images/Ribeiro",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 1813
+}
