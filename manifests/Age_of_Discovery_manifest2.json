@@ -1,0 +1,187 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://ksefil.github.io/IIIF_Age_of_Discovery/manifests/Age_of_Discovery_manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Age of Discovery maps",
+  "metadata" : [ {
+    "label" : "Authors",
+    "value" : "Various cartographers from the Age of Discovery",
+    "language" : "en"
+  }, {
+    "label" : "Date",
+    "value" : "1482-1658",
+    "language" : "en"
+  } ],
+  "description" : [ {
+    "@value" : "This manifest presents a collection of maps from the Age of Discovery. It aims to illustrate the evolution of Europeans' geographical knowledge of the world at that time.",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/4.0/",
+  "attribution" : "École Nationale des Chartes",
+  "sequences" : [ {
+    "@id" : "http://05fc9964-912f-4f42-8e04-4f0e0e7e1c3a",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://892b292e-b229-42ba-92ac-6316222ec9f1",
+      "@type" : "sc:Canvas",
+      "label" : "Nicolaus Germanus, 1482",
+      "height" : 5813,
+      "width" : 8073,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://2411532c-9187-44fa-bf85-04b28dcf4c6d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://ksefil.github.io/IIIF_Age_of_Discovery/images/Claudius_Ptolemy/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ksefil.github.io/IIIF_Age_of_Discovery/images/Claudius_Ptolemy",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 5813,
+          "width" : 8073
+        },
+        "on" : "http://892b292e-b229-42ba-92ac-6316222ec9f1"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://0325cd79-ad46-471d-b43d-5818a798bd86",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 1163,
+      "width" : 2127,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://07d89405-1443-4ea4-87c8-5d5c2621a29d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://ksefil.github.io/IIIF_Age_of_Discovery/images/Juan_de_la_Cosa/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ksefil.github.io/IIIF_Age_of_Discovery/images/Juan_de_la_Cosa",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1163,
+          "width" : 2127
+        },
+        "on" : "http://0325cd79-ad46-471d-b43d-5818a798bd86"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://d14e3f28-4515-4217-8bfd-207b667d1959",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 4998,
+      "width" : 10643,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://95e07a09-4833-42c9-b817-5ef7adab2532",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://ksefil.github.io/IIIF_Age_of_Discovery/images/Cantino/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ksefil.github.io/IIIF_Age_of_Discovery/images/Cantino",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 4998,
+          "width" : 10643
+        },
+        "on" : "http://d14e3f28-4515-4217-8bfd-207b667d1959"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://c822b08a-15b2-4dbf-b72b-47b5b21456bf",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 1813,
+      "width" : 4289,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://bd989471-863d-43b2-a847-e86c52095952",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://ksefil.github.io/IIIF_Age_of_Discovery/images/Ribeiro/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ksefil.github.io/IIIF_Age_of_Discovery/images/Ribeiro",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1813,
+          "width" : 4289
+        },
+        "on" : "http://c822b08a-15b2-4dbf-b72b-47b5b21456bf"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://87131600-7b2e-48a2-9211-f218c1de3401",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 3961,
+      "width" : 5816,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://de88c484-424b-4ab3-9758-54d00c8068e0",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://ksefil.github.io/IIIF_Age_of_Discovery/images/Ortelius/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ksefil.github.io/IIIF_Age_of_Discovery/images/Ortelius",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 3961,
+          "width" : 5816
+        },
+        "on" : "http://87131600-7b2e-48a2-9211-f218c1de3401"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://036cd15a-83f9-4fbf-873d-60002af2d09d",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 2478,
+      "width" : 2950,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://ee38a91e-a843-4636-9540-6abfcc792bf3",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://ksefil.github.io/IIIF_Age_of_Discovery/images/Nicolaes_Visscher/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ksefil.github.io/IIIF_Age_of_Discovery/images/Nicolaes_Visscher",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 2478,
+          "width" : 2950
+        },
+        "on" : "http://036cd15a-83f9-4fbf-873d-60002af2d09d"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
