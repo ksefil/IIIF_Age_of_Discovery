@@ -81,7 +81,7 @@
     }, {
       "@id" : "http://d14e3f28-4515-4217-8bfd-207b667d1959",
       "@type" : "sc:Canvas",
-      "label" : "Cantino, 1502.",
+      "label" : "Cantino planisphere, 1502.",
       "height" : 4998,
       "width" : 10643,
       "images" : [ {
@@ -184,5 +184,50 @@
       "related" : ""
     } ]
   } ],
-  "structures" : [ ]
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/collection/range/15th-century",
+    "@type" : "sc:Range",
+    "label" : "15th century",
+    "ranges" : [ {
+      "@id" : "http://example.org/iiif/collection/range/15th-century/1",
+      "@type" : "sc:Range",
+      "label" : "Nicolaus Germanus, 1482.",
+      "canvases" : [ "http://892b292e-b229-42ba-92ac-6316222ec9f1" ]
+    }, {
+      "@id" : "http://example.org/iiif/collection/range/15th-century/2",
+      "@type" : "sc:Range",
+      "label" : "Juan de la Cosa, 1500.",
+      "canvases" : [ "http://0325cd79-ad46-471d-b43d-5818a798bd86" ]
+    } ]
+  }, {
+    "@id" : "http://example.org/iiif/collection/range/16th-century",
+    "@type" : "sc:Range",
+    "label" : "16th century",
+    "ranges" : [ {
+      "@id" : "http://example.org/iiif/collection/range/16th-century/1",
+      "@type" : "sc:Range",
+      "label" : "Cantino planisphere, 1502.",
+      "canvases" : [ "http://d14e3f28-4515-4217-8bfd-207b667d1959" ]
+    }, {
+      "@id" : "http://example.org/iiif/collection/range/16th-century/2",
+      "@type" : "sc:Range",
+      "label" : "Diogo Ribeiro, 1529.",
+      "canvases" : [ "http://c822b08a-15b2-4dbf-b72b-47b5b21456bf" ]
+    }, {
+      "@id" : "http://example.org/iiif/collection/range/16th-century/3",
+      "@type" : "sc:Range",
+      "label" : "Abraham Ortelius, 1570.",
+      "canvases" : [ "http://87131600-7b2e-48a2-9211-f218c1de3401" ]
+    } ]
+  }, {
+    "@id" : "http://example.org/iiif/collection/range/17th-century",
+    "@type" : "sc:Range",
+    "label" : "17th century",
+    "ranges" : [ {
+      "@id" : "http://example.org/iiif/collection/range/17th-century/1",
+      "@type" : "sc:Range",
+      "label" : "Nicolaes Visscher, 1658.",
+      "canvases" : [ "http://036cd15a-83f9-4fbf-873d-60002af2d09d" ]
+    } ]
+  } ]
 }
