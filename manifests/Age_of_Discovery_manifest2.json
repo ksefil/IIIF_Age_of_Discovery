@@ -18,6 +18,7 @@
   } ],
   "license" : "https://creativecommons.org/licenses/by/4.0/",
   "attribution" : "École Nationale des Chartes",
+  "viewingHint" : "individuals",
   "sequences" : [ {
     "@id" : "http://05fc9964-912f-4f42-8e04-4f0e0e7e1c3a",
     "@type" : "sc:Sequence",
@@ -28,7 +29,7 @@
     "canvases" : [ {
       "@id" : "http://892b292e-b229-42ba-92ac-6316222ec9f1",
       "@type" : "sc:Canvas",
-      "label" : "Nicolaus Germanus, 1482",
+      "label" : "Nicolaus Germanus, 1482.",
       "height" : 5813,
       "width" : 8073,
       "images" : [ {
@@ -54,7 +55,7 @@
     }, {
       "@id" : "http://0325cd79-ad46-471d-b43d-5818a798bd86",
       "@type" : "sc:Canvas",
-      "label" : "Empty canvas",
+      "label" : "Juan de la Cosa, 1500.",
       "height" : 1163,
       "width" : 2127,
       "images" : [ {
@@ -80,7 +81,7 @@
     }, {
       "@id" : "http://d14e3f28-4515-4217-8bfd-207b667d1959",
       "@type" : "sc:Canvas",
-      "label" : "Empty canvas",
+      "label" : "Cantino, 1502.",
       "height" : 4998,
       "width" : 10643,
       "images" : [ {
@@ -106,7 +107,7 @@
     }, {
       "@id" : "http://c822b08a-15b2-4dbf-b72b-47b5b21456bf",
       "@type" : "sc:Canvas",
-      "label" : "Empty canvas",
+      "label" : "Diogo Ribeiro, 1529.",
       "height" : 1813,
       "width" : 4289,
       "images" : [ {
@@ -132,7 +133,7 @@
     }, {
       "@id" : "http://87131600-7b2e-48a2-9211-f218c1de3401",
       "@type" : "sc:Canvas",
-      "label" : "Empty canvas",
+      "label" : "Abraham Ortelius, 1570.",
       "height" : 3961,
       "width" : 5816,
       "images" : [ {
@@ -158,7 +159,7 @@
     }, {
       "@id" : "http://036cd15a-83f9-4fbf-873d-60002af2d09d",
       "@type" : "sc:Canvas",
-      "label" : "Empty canvas",
+      "label" : "Nicolaes Visscher, 1658.",
       "height" : 2478,
       "width" : 2950,
       "images" : [ {
