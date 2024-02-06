@@ -1,0 +1,13 @@
+{
+  "id" : "https://ksefil.github.io/IIIF_Age_of_Discovery/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in ksefil/IIIF_Age_of_Discovery project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://ksefil.github.io/IIIF_Age_of_Discovery/manifests/Age_of_Discovery_manifest2.json",
+    "label" : "Age of Discovery maps"
+  } ]
+}
