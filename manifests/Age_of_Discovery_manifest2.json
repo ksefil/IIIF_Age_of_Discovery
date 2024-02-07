@@ -3,6 +3,11 @@
   "@id" : "https://ksefil.github.io/IIIF_Age_of_Discovery/manifests/Age_of_Discovery_manifest2.json",
   "@type" : "sc:Manifest",
   "label" : "Age of Discovery maps",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/152982679/e66ff432b3a191e3305b07324a7a18e9/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
   "metadata" : [ {
     "label" : "Authors",
     "value" : "Various cartographers from the Age of Discovery",
@@ -51,7 +56,12 @@
         },
         "on" : "http://892b292e-b229-42ba-92ac-6316222ec9f1"
       } ],
-      "related" : ""
+      "related" : "",
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/152982679/73b1aef51a1c149df2ad1a0728d709f3.json",
+        "label" : "Annotations for canvas Nicolaus Germanus, 1482."
+      } ]
     }, {
       "@id" : "http://0325cd79-ad46-471d-b43d-5818a798bd86",
       "@type" : "sc:Canvas",
@@ -77,7 +87,12 @@
         },
         "on" : "http://0325cd79-ad46-471d-b43d-5818a798bd86"
       } ],
-      "related" : ""
+      "related" : "",
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/152982679/8e57e48e8dbee6f8a7390c6c1f2a8bee.json",
+        "label" : "Annotations for canvas Juan de la Cosa, 1500."
+      } ]
     }, {
       "@id" : "http://d14e3f28-4515-4217-8bfd-207b667d1959",
       "@type" : "sc:Canvas",
@@ -103,7 +118,12 @@
         },
         "on" : "http://d14e3f28-4515-4217-8bfd-207b667d1959"
       } ],
-      "related" : ""
+      "related" : "",
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/152982679/4c9bdb3007ee99d4d03b79af814d8365.json",
+        "label" : "Annotations for canvas Cantino planisphere, 1502."
+      } ]
     }, {
       "@id" : "http://c822b08a-15b2-4dbf-b72b-47b5b21456bf",
       "@type" : "sc:Canvas",
@@ -129,7 +149,12 @@
         },
         "on" : "http://c822b08a-15b2-4dbf-b72b-47b5b21456bf"
       } ],
-      "related" : ""
+      "related" : "",
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/152982679/20465974ab5089baeec5b5bfbc3e4052.json",
+        "label" : "Annotations for canvas Diogo Ribeiro, 1529."
+      } ]
     }, {
       "@id" : "http://87131600-7b2e-48a2-9211-f218c1de3401",
       "@type" : "sc:Canvas",
@@ -155,7 +180,12 @@
         },
         "on" : "http://87131600-7b2e-48a2-9211-f218c1de3401"
       } ],
-      "related" : ""
+      "related" : "",
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/152982679/a6b2c9b5fa2fae67db93bf9396be7ec8.json",
+        "label" : "Annotations for canvas Abraham Ortelius, 1570."
+      } ]
     }, {
       "@id" : "http://036cd15a-83f9-4fbf-873d-60002af2d09d",
       "@type" : "sc:Canvas",
@@ -181,7 +211,12 @@
         },
         "on" : "http://036cd15a-83f9-4fbf-873d-60002af2d09d"
       } ],
-      "related" : ""
+      "related" : "",
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/152982679/d6fc773d2f9fcebcb2682addfd8ad5b8.json",
+        "label" : "Annotations for canvas Nicolaes Visscher, 1658."
+      } ]
     } ]
   } ],
   "structures" : [ {
